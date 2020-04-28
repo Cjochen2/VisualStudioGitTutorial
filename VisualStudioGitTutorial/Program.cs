@@ -6,7 +6,7 @@ namespace VisualStudioGitTutorial
     {
         static void Main(string[] args)
         {
-            WriteLine("Howdy there partner!");
+            WriteLine("Hello World!");
             WriteLine("Press any key to continue");
             ReadKey();
         }
