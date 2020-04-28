@@ -1,4 +1,4 @@
-﻿using System;
+﻿using static System.Console;
 
 namespace VisualStudioGitTutorial
 {
@@ -6,7 +6,9 @@ namespace VisualStudioGitTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WriteLine("Hello World!");
+            WriteLine("Press any key to continue");
+            ReadKey();
         }
     }
 }
